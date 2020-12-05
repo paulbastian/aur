@@ -7,7 +7,7 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
-ExecStart=/usr/bin/java -jar /usr/share/librespot-1.5.3-SNAPSHOT.jar --conf-file=/etc/librespot-java/config.toml
+ExecStart=/usr/bin/java -jar /usr/share/java/librespot/librespot-player-1.5.2.jar --conf-file=/etc/librespot-java/config.toml
 Restart=always
 RestartSec=12
 
